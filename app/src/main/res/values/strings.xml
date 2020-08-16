@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TradingExample</string>
+
+    <string name="navigation_menu_item_one">Market</string>
+    <string name="navigation_menu_item_two">Portfolio</string>
+    <string name="navigation_menu_item_three">Chats</string>
+    <string name="navigation_menu_item_four">Profile</string>
+
+    <string name="stock_header_equity">Equity</string>
+    <string name="stock_header_balance">Balance</string>
+    <string name="stock_header_margin">Margin</string>
+    <string name="stock_header_used">Used</string>
+
+    <string name="stock_header_symbol">Symbol</string>
+    <string name="stock_header_change">Change</string>
+    <string name="stock_header_sell">Sell</string>
+    <string name="stock_header_buy">Buy</string>
+</resources>

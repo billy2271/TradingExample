@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_20dp"
+    android:layout_marginTop="@dimen/margin_20dp"
+    android:layout_marginRight="@dimen/margin_20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tradingTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/text_16sp"
+                android:textStyle="bold"
+                tools:ignore="SpUsage" />
+
+            <ImageView
+                android:id="@+id/tradingImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tradingChange"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_16sp"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tradingSell"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_16sp"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/tradingBuy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_16sp"
+            tools:ignore="SpUsage" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tradingSubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_sub_title_text"
+        android:textSize="@dimen/text_12sp"
+        tools:ignore="SpUsage" />
+</LinearLayout>
