@@ -49,13 +49,13 @@ https://www.freeforexapi.com/api/live?pairs=EURUSD
 The model class is a simple pojo, which store the properties of current rate.
 ```kotlin
 /**
- * This service is based on the free forex api
- * https://www.freeforexapi.com/api/
+ * The model class to store current rate in.
+ *
+ * @param name the name of the current rate
+ * @param rate the rate of the current
+ * @param rateChange the rate change of the current
  */
-interface ServicesApiInterface {
-    @GET("live")
-    fun currentRates(@Query("pairs") name: String): Call<CurrentRateResponse>
-}
+data class CurrentRate(var name: String, var rate: Double, var rateChange: Double)
 ```
 
 ## Retrofit
