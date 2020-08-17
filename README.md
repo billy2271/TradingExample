@@ -9,6 +9,7 @@ Trading Example is a example application for current rate trading.
 ## TODO
 - Add buy/sell current
 - Display total asset list page
+- Update banlance and equity
 
 ## Tech stack & Open-source libraries
 - Minimum SDK level 21
