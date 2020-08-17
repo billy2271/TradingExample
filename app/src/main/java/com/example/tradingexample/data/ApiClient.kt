@@ -34,6 +34,10 @@ object ApiClient {
         return httpLoggingInterceptor
     }
 
+    /**
+     * This service is based on the free forex api
+     * https://www.freeforexapi.com/api/
+     */
     interface ServicesApiInterface {
         @GET("live")
         fun currentRates(@Query("pairs") name: String): Call<CurrentRateResponse>
